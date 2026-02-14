@@ -1,0 +1,165 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+
+
+h4.ns2-title {
+    font-weight: normal;
+    margin: 5px 0 15px;
+}
+.ns2-date-blog {
+        margin-top: 30px;
+	line-height: 1.2em;
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	perspective: 800px;
+}
+
+.ns2-date-blog {
+	position: absolute;
+	display: inline-block;
+	padding: 3px 15px 0;
+	background: #efefef;
+	color: #1B1B1B;
+	box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.2) inset;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+	transition: background 0.6s;
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform-origin: 0% 50%;
+	-moz-transform-origin: 0% 50%;
+	transform-origin: 0% 50%;
+}
+
+div.ns2-created:before {
+    content: "\f017";
+    font-family: FontAwesome;
+}
+
+.ns2-title {
+    font-weight: normal !important;
+}
+
+div.nssp2-default .ns2-art-prev {
+    height: 10px;
+    width: 10px;
+    display: block;
+    padding: 4px;
+    background: none repeat scroll 0 0 #F2AA0F;
+    -moz-box-shadow: 0px -3px 0px 0px rgba(0,0,0,0.2) inset;
+    -webkit-box-shadow: 0px -3px 0px 0px rgba(0,0,0,0.2) inset;
+    box-shadow: 0px -3px 0px 0px rgba(0,0,0,0.2) inset;
+    text-indent: -999em;
+    margin-top: -10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+div.nssp2-default .ns2-art-next {
+    height: 10px;
+    width: 10px;
+    display: block;
+    padding: 4px;
+    background: none repeat scroll 0 0 #F2AA0F;
+    -moz-box-shadow: 0px -3px 0px 0px rgba(0,0,0,0.2) inset;
+    -webkit-box-shadow: 0px -3px 0px 0px rgba(0,0,0,0.2) inset;
+    box-shadow: 0px -3px 0px 0px rgba(0,0,0,0.2) inset;
+    text-indent: -999em;
+    margin-top: -10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out 0s;
+    margin-right: 5px;
+}
+
+div.nssp2-default .ns2-art-prev:hover { background-position: 0 -26px; transition: all 0.2s ease-in-out 0s; }
+div.nssp2-default .ns2-art-next:hover { background-position: -26px -26px; transition: all 0.2s ease-in-out 0s; }
+
+div.nssp2-default .ns2-art-pagination, div.nssp2-default .ns2-links-pagination {
+    float: left;
+    margin: 10px;
+}
+
+a.ns2-readmore span {
+        width: 15px;
+	background: #F2AA0F;
+        color: #fff;
+        -moz-box-shadow: 0px -1px 0px 0px rgba(0,0,0,0.2) inset;
+        -webkit-box-shadow: 0px -1px 0px 0px rgba(0,0,0,0.2) inset;
+        box-shadow: 0px -1px 0px 0px rgba(0,0,0,0.2) inset;
+        transition: all 0.3s ease-in-out 0s; 
+        border-radius: 0 0 0 0;
+        box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.2) inset;
+    	padding: 6px 10px;
+    	bottom: 25px;
+    	position: absolute;
+    	display: inline-block;
+}
+
+a.ns2-readmore span:after {
+	margin-left: 5px;
+        content: "\f0da";
+        font-family: FontAwesome;
+}
+
+a.ns2-readmore span:hover {
+	color: #FFF;
+        background: #545454;
+        transition: all 0.3s ease-in-out 0s;
+}
+
+
+div.ns2-category:before {
+	position:absolute;
+        top:0;
+        left:-5px;
+        content: "\25AE"
+}
+div.ns2-category {
+	margin-right: 5px;
+	}
+
+div.nssp2-default .ns2-art-controllers, div.nssp2-default .ns2-links-controllers {
+        top: 5px;
+        right: 0;
+}
+
+.uk-icon-button {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 0;
+  background: #bdbdbd;
+  line-height: 35px;
+  color: #fff;
+  font-size: 17.5px;
+  text-align: center;
+  border: none;
+  text-shadow: none;
+  margin-right: 2px;
+}
+
+.uk-badge {
+  display: inline-block;
+  padding: 0 5px;
+  background: #f2aa0f;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 14px;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: none;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 2px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.uk-progress-bar {
+  background: #f2aa0f;
+}
